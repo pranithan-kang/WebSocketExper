@@ -1,0 +1,33 @@
+.App {
+    padding: 10px;
+}
+
+.group-container {
+    display: flex;
+    .group {
+        width: 50%;
+        margin: 1em;
+    }
+}
+
+.panel-ctn {
+    .info-message {
+        background-color: rgb(68, 133, 38);
+        margin-top: 5px;
+        color: white;
+    }
+
+    .error-message {
+        background-color: rgb(133, 38, 38);
+        color: white;
+    }
+
+    .user-console {
+        input {
+            width: 80%;
+        }
+        *:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
+}
